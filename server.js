@@ -4,6 +4,7 @@ var app = express();
 
 
 app.get("/git", function (req, res) {
+    console.log("Teste")
     res.send({sucesso: "Teste GitHub Actions"});
 });
   
