@@ -1,0 +1,21 @@
+{
+  "name": "node_workflow_git",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
